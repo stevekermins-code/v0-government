@@ -53,7 +53,7 @@ export default function PresidentPage() {
             >
               <div className="relative aspect-[4/5] rounded-lg overflow-hidden border-4 border-gold shadow-2xl">
                 <Image
-                  src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=800&h=1000&fit=crop"
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image.png-YSg22v1WpG2e4RukvFp11EHXwqlQzV.jpeg"
                   alt="Dylan Wong - 47th President"
                   fill
                   className="object-cover"

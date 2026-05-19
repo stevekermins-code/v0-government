@@ -53,7 +53,7 @@ export default function VicePresidentPage() {
             >
               <div className="relative aspect-[4/5] rounded-lg overflow-hidden border-4 border-gold shadow-2xl">
                 <Image
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=1000&fit=crop"
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image.png-lHZwgHNoUD51le4bmbXxXz7Oj8XrT4.jpeg"
                   alt="Ethan Landrigan - Vice President"
                   fill
                   className="object-cover"

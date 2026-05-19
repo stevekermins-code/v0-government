@@ -78,7 +78,7 @@ export default function HomePage() {
             >
               <div className="relative aspect-[4/5] rounded-lg overflow-hidden border-4 border-gold shadow-2xl">
                 <Image
-                  src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=800&h=1000&fit=crop"
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image.png-YSg22v1WpG2e4RukvFp11EHXwqlQzV.jpeg"
                   alt="Dylan Wong - 47th President of the United States"
                   fill
                   className="object-cover"
@@ -178,7 +178,7 @@ export default function HomePage() {
               <Link href="/president" className="block">
                 <div className="relative aspect-[3/4] rounded-lg overflow-hidden border-2 border-border group-hover:border-gold transition-colors">
                   <Image
-                    src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=600&h=800&fit=crop"
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image.png-YSg22v1WpG2e4RukvFp11EHXwqlQzV.jpeg"
                     alt="Dylan Wong"
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
@@ -202,7 +202,7 @@ export default function HomePage() {
               <Link href="/vice-president" className="block">
                 <div className="relative aspect-[3/4] rounded-lg overflow-hidden border-2 border-border group-hover:border-gold transition-colors">
                   <Image
-                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=800&fit=crop"
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image.png-lHZwgHNoUD51le4bmbXxXz7Oj8XrT4.jpeg"
                     alt="Ethan Landrigan"
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
