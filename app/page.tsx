@@ -17,12 +17,11 @@ export default function HomePage() {
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
         {/* Background Image - Statue of Liberty */}
         <div className="absolute inset-0">
-          <Image
+          {/* Using img tag to preserve GIF animation */}
+          <img
             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-VhyvpBlBFs9UofYEpb89D4WYpLWcuU.png"
             alt="Statue of Liberty at sunset"
-            fill
-            className="object-cover"
-            priority
+            className="absolute inset-0 w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-background/80" />
         </div>
@@ -96,15 +95,12 @@ export default function HomePage() {
                 <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent" />
                 <div className="absolute bottom-0 left-0 right-0 p-6">
                   <h2 className="text-2xl font-bold text-foreground">Dylan Wong</h2>
-                  {/* Signature */}
-                  <div className="h-12 w-48 relative mt-1">
-                    <Image
-                      src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-7c1JUSxM0lz63XRbDszjWJDbUIWIGC.png"
-                      alt="Dylan Wong signature"
-                      fill
-                      className="object-contain"
-                    />
-                  </div>
+                  {/* Signature - using img to preserve GIF animation */}
+                  <img
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-7c1JUSxM0lz63XRbDszjWJDbUIWIGC.png"
+                    alt="Dylan Wong signature"
+                    className="h-12 w-48 object-contain mt-1"
+                  />
                   <p className="text-gold font-medium">47th President of the United States</p>
                 </div>
               </div>
