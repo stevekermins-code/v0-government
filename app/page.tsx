@@ -19,7 +19,7 @@ export default function HomePage() {
         <div className="absolute inset-0">
           {/* Using img tag to preserve GIF animation */}
           <img
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Untitled%20design.gif-ZQmW3GTLGDHNq5mII3673Os93rHCLB.jpeg"
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Untitled%20design.gif-nTj9EWiNqY2HqzUTRxkvwtlIa2B1qS.jpeg"
             alt="Statue of Liberty at sunset"
             className="absolute inset-0 w-full h-full object-cover"
           />
