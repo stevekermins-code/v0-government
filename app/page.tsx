@@ -19,7 +19,7 @@ export default function HomePage() {
         <div className="absolute inset-0">
           {/* Using img tag to preserve GIF animation */}
           <img
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-VhyvpBlBFs9UofYEpb89D4WYpLWcuU.png"
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Untitled%20design.gif-ZQmW3GTLGDHNq5mII3673Os93rHCLB.jpeg"
             alt="Statue of Liberty at sunset"
             className="absolute inset-0 w-full h-full object-cover"
           />
@@ -45,7 +45,7 @@ export default function HomePage() {
                 <span className="text-sm font-medium text-gold">Republican Party</span>
               </div>
               
-              <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-foreground leading-tight mb-6">
+              <h1 className="text-5xl sm:text-6xl lg:text-7xl font-serif font-bold text-foreground leading-tight mb-6">
                 Vote <span className="text-gold">Wong</span>,<br />
                 Not Wrong.
               </h1>
@@ -77,14 +77,15 @@ export default function HomePage() {
               </div>
             </motion.div>
             
-            {/* Right content - President image placeholder */}
+            {/* Right content - President image */}
             <motion.div
               initial={{ opacity: 0, x: 50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="relative"
+              className="relative flex flex-col"
             >
-              <div className="relative aspect-[4/5] rounded-lg overflow-hidden border-4 border-gold shadow-2xl">
+              {/* Image container */}
+              <div className="relative aspect-[4/5] rounded-t-lg overflow-hidden border-4 border-b-0 border-gold shadow-2xl">
                 <Image
                   src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image.png-YSg22v1WpG2e4RukvFp11EHXwqlQzV.jpeg"
                   alt="Dylan Wong - 47th President of the United States"
@@ -92,15 +93,19 @@ export default function HomePage() {
                   className="object-cover"
                   priority
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent" />
-                <div className="absolute bottom-0 left-0 right-0 p-6">
-                  <h2 className="text-2xl font-bold text-foreground">Dylan Wong</h2>
-                  {/* Signature - using img to preserve GIF animation */}
-                  <img
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-7c1JUSxM0lz63XRbDszjWJDbUIWIGC.png"
-                    alt="Dylan Wong signature"
-                    className="h-12 w-48 object-contain mt-1"
-                  />
+              </div>
+              
+              {/* Name and title box below image */}
+              <div className="bg-card border-4 border-t-0 border-gold rounded-b-lg p-6 flex items-center gap-4">
+                {/* Animated signature GIF on the left */}
+                <img
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Untitled%20design%20%281%29-EnQc2WqHgDhm2HKAhVNFAVPajCirMS.gif"
+                  alt="Dylan Wong signature"
+                  className="h-16 w-32 object-contain"
+                />
+                {/* Name and title on the right */}
+                <div>
+                  <h2 className="text-2xl font-serif font-bold text-foreground">Dylan Wong</h2>
                   <p className="text-gold font-medium">47th President of the United States</p>
                 </div>
               </div>
