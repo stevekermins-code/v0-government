@@ -15,14 +15,17 @@ export default function HomePage() {
       
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
-        {/* Background Image - Statue of Liberty */}
+        {/* Background Video - Statue of Liberty */}
         <div className="absolute inset-0">
-          {/* Using img tag to preserve GIF animation */}
-          <img
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Untitled%20design.gif-nTj9EWiNqY2HqzUTRxkvwtlIa2B1qS.jpeg"
-            alt="Statue of Liberty at sunset"
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
             className="absolute inset-0 w-full h-full object-cover"
-          />
+          >
+            <source src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Untitled%20design%20%285%29-f2xoUVkRTvje3PkkyRv4UsNzy5qEFz.mp4" type="video/mp4" />
+          </video>
           <div className="absolute inset-0 bg-background/80" />
         </div>
         <div 
@@ -71,7 +74,7 @@ export default function HomePage() {
               {/* Campaign slogan */}
               <div className="mt-12 p-6 bg-card border border-border rounded-lg">
                 <p className="text-lg font-medium text-foreground italic">
-                  {'"'}What&apos;s Wong with you?{'"'}
+                  {'"'}What{"'"}s Wong with you?{'"'}
                 </p>
                 <p className="text-sm text-muted-foreground mt-2">— Campaign Slogan 2028</p>
               </div>
@@ -151,7 +154,7 @@ export default function HomePage() {
               {
                 icon: Star,
                 title: "Space Exploration",
-                description: "Advancing America&apos;s leadership in the final frontier.",
+                description: "Advancing America's leadership in the final frontier.",
               },
             ].map((item, index) => (
               <motion.div
@@ -255,7 +258,7 @@ export default function HomePage() {
               Join the Movement
             </h2>
             <p className="text-xl text-primary-foreground/80 mb-8">
-              Be part of history. Support Dylan Wong&apos;s campaign for a stronger, more prosperous America.
+              Be part of history. Support Dylan Wong's campaign for a stronger, more prosperous America.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link href="/contact">
@@ -265,7 +268,7 @@ export default function HomePage() {
                 </Button>
               </Link>
               <Link href="/strategy">
-                <Button size="lg" variant="outline" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10">
+                <Button size="lg" variant="outline" className="border-gold text-gold hover:bg-gold/10">
                   View Strategy
                 </Button>
               </Link>
