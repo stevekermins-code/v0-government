@@ -58,7 +58,7 @@ const MegaMenu = React.forwardRef<HTMLUListElement, MegaMenuProps>(
                 {(isHover === navItem.id || openMenu === navItem.label) && (
                   <motion.div
                     layoutId="hover-bg"
-                    className="absolute inset-0 size-full bg-gold/10"
+                    className="absolute inset-0 size-full bg-navy/10"
                     style={{
                       borderRadius: 99,
                     }}
@@ -82,7 +82,7 @@ const MegaMenu = React.forwardRef<HTMLUListElement, MegaMenuProps>(
                 {(isHover === navItem.id || openMenu === navItem.label) && (
                   <motion.div
                     layoutId="hover-bg"
-                    className="absolute inset-0 size-full bg-gold/10"
+                    className="absolute inset-0 size-full bg-navy/10"
                     style={{
                       borderRadius: 99,
                     }}
@@ -118,7 +118,7 @@ const MegaMenu = React.forwardRef<HTMLUListElement, MegaMenuProps>(
                                     href={item.href || "#"}
                                     className="flex items-start space-x-3 group"
                                   >
-                                    <div className="flex size-9 shrink-0 items-center justify-center rounded-md border border-gold/30 text-gold transition-colors duration-300 group-hover:bg-gold group-hover:text-background">
+                                    <div className="flex size-9 shrink-0 items-center justify-center rounded-md border border-navy/30 text-navy transition-colors duration-300 group-hover:bg-navy group-hover:text-background">
                                       <Icon className="h-5 w-5 flex-none" />
                                     </div>
                                     <div className="w-max leading-5">

@@ -69,9 +69,9 @@ export default function MediaPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <div className="inline-flex items-center gap-2 bg-gold/10 border border-gold/30 rounded-full px-4 py-2 mb-6">
-              <Tv className="h-4 w-4 text-gold" />
-              <span className="text-sm font-medium text-gold">Campaign Communications</span>
+            <div className="inline-flex items-center gap-2 bg-navy/10 border border-navy/30 rounded-full px-4 py-2 mb-6">
+              <Tv className="h-4 w-4 text-navy" />
+              <span className="text-sm font-medium text-navy">Campaign Communications</span>
             </div>
             
             <h1 className="text-5xl sm:text-6xl font-bold text-foreground leading-tight mb-6">
@@ -95,7 +95,7 @@ export default function MediaPage() {
             className="mb-12"
           >
             <div className="flex items-center gap-3 mb-4">
-              <Tv className="h-8 w-8 text-gold" />
+              <Tv className="h-8 w-8 text-navy" />
               <h2 className="text-3xl font-bold text-foreground">Media Exposure Strategy</h2>
             </div>
             <p className="text-muted-foreground max-w-3xl">
@@ -111,7 +111,7 @@ export default function MediaPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                className="bg-card rounded-lg border border-border overflow-hidden hover:border-gold/50 transition-colors group"
+                className="bg-card rounded-lg border border-border overflow-hidden hover:border-navy/50 transition-colors group"
               >
                 <div className="relative h-48 overflow-hidden">
                   <Image
@@ -120,14 +120,14 @@ export default function MediaPage() {
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
                   />
-                  <div className="absolute top-4 left-4 bg-gold text-background px-3 py-1 rounded-full text-sm font-medium flex items-center gap-2">
+                  <div className="absolute top-4 left-4 bg-navy text-background px-3 py-1 rounded-full text-sm font-medium flex items-center gap-2">
                     <outlet.icon className="h-4 w-4" />
                     {outlet.type}
                   </div>
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-foreground mb-2">{outlet.name}</h3>
-                  <p className="text-gold text-sm font-medium mb-3">{outlet.reach}</p>
+                  <p className="text-navy text-sm font-medium mb-3">{outlet.reach}</p>
                   <p className="text-muted-foreground">{outlet.description}</p>
                 </div>
               </motion.div>
@@ -146,7 +146,7 @@ export default function MediaPage() {
             className="mb-12"
           >
             <div className="flex items-center gap-3 mb-4">
-              <Users className="h-8 w-8 text-gold" />
+              <Users className="h-8 w-8 text-navy" />
               <h2 className="text-3xl font-bold text-foreground">Interest Group Support</h2>
             </div>
             <p className="text-muted-foreground max-w-3xl">
@@ -162,11 +162,11 @@ export default function MediaPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                className="bg-card p-6 rounded-lg border border-border hover:border-gold/50 transition-colors"
+                className="bg-card p-6 rounded-lg border border-border hover:border-navy/50 transition-colors"
               >
                 <div className="flex items-start justify-between mb-4">
                   <h3 className="text-xl font-bold text-foreground">{group.name}</h3>
-                  <span className="text-sm bg-gold/10 text-gold px-3 py-1 rounded-full">{group.members}</span>
+                  <span className="text-sm bg-navy/10 text-navy px-3 py-1 rounded-full">{group.members}</span>
                 </div>
                 <p className="text-muted-foreground">{group.reason}</p>
               </motion.div>
@@ -187,7 +187,7 @@ export default function MediaPage() {
             <p className="text-primary-foreground/80 mb-8">
               Members of the media seeking interviews, statements, or additional information about the Wong 2028 campaign should contact our communications team.
             </p>
-            <div className="inline-flex items-center gap-2 bg-gold text-background px-6 py-3 rounded-lg font-bold">
+            <div className="inline-flex items-center gap-2 bg-navy text-background px-6 py-3 rounded-lg font-bold">
               <ExternalLink className="h-5 w-5" />
               press@wong2028.com
             </div>

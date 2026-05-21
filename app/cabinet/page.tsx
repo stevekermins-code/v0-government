@@ -127,9 +127,9 @@ export default function CabinetPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <div className="inline-flex items-center gap-2 bg-gold/10 border border-gold/30 rounded-full px-4 py-2 mb-6">
-              <Star className="h-4 w-4 text-gold" />
-              <span className="text-sm font-medium text-gold">The Wong Administration</span>
+            <div className="inline-flex items-center gap-2 bg-navy/10 border border-navy/30 rounded-full px-4 py-2 mb-6">
+              <Star className="h-4 w-4 text-navy" />
+              <span className="text-sm font-medium text-navy">The Wong Administration</span>
             </div>
             
             <h1 className="text-5xl sm:text-6xl font-bold text-foreground leading-tight mb-6">
@@ -154,7 +154,7 @@ export default function CabinetPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.05 }}
-                className="bg-card rounded-lg border border-border overflow-hidden hover:border-gold/50 transition-colors group"
+                className="bg-card rounded-lg border border-border overflow-hidden hover:border-navy/50 transition-colors group"
               >
                 <div className="relative h-48 overflow-hidden">
                   <Image
@@ -166,7 +166,7 @@ export default function CabinetPage() {
                   <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
                 </div>
                 <div className="p-6">
-                  <p className="text-gold text-sm font-medium mb-1">{member.department}</p>
+                  <p className="text-navy text-sm font-medium mb-1">{member.department}</p>
                   <h3 className="text-xl font-bold text-foreground mb-1">{member.name}</h3>
                   <p className="text-muted-foreground text-sm mb-3">{member.title}</p>
                   <p className="text-muted-foreground text-sm">{member.description}</p>

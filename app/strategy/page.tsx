@@ -50,9 +50,9 @@ export default function StrategyPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <div className="inline-flex items-center gap-2 bg-gold/10 border border-gold/30 rounded-full px-4 py-2 mb-6">
-              <Flag className="h-4 w-4 text-gold" />
-              <span className="text-sm font-medium text-gold">Campaign Strategy</span>
+            <div className="inline-flex items-center gap-2 bg-navy/10 border border-navy/30 rounded-full px-4 py-2 mb-6">
+              <Flag className="h-4 w-4 text-navy" />
+              <span className="text-sm font-medium text-navy">Campaign Strategy</span>
             </div>
             
             <h1 className="text-5xl sm:text-6xl font-bold text-foreground leading-tight mb-6">
@@ -75,7 +75,7 @@ export default function StrategyPage() {
             viewport={{ once: true }}
           >
             <h2 className="text-3xl sm:text-4xl font-bold mb-4">Campaign Slogan</h2>
-            <div className="bg-gold text-background px-8 py-6 rounded-lg inline-block">
+            <div className="bg-navy text-background px-8 py-6 rounded-lg inline-block">
               <p className="text-3xl sm:text-4xl font-black tracking-tight">
                 VOTE WONG, NOT WRONG
               </p>
@@ -97,26 +97,26 @@ export default function StrategyPage() {
             className="text-center mb-12"
           >
             <h2 className="text-4xl font-bold text-foreground mb-4">Electoral Math</h2>
-            <div className="w-24 h-1 bg-gold mx-auto mb-8" />
+            <div className="w-24 h-1 bg-navy mx-auto mb-8" />
             
             <div className="grid md:grid-cols-3 gap-8 max-w-3xl mx-auto">
               <div className="bg-card p-6 rounded-lg border border-border">
-                <p className="text-4xl font-bold text-gold">{totalSafe}</p>
+                <p className="text-4xl font-bold text-navy">{totalSafe}</p>
                 <p className="text-muted-foreground">Safe States</p>
               </div>
               <div className="bg-card p-6 rounded-lg border border-border">
-                <p className="text-4xl font-bold text-gold">{totalBattleground}</p>
+                <p className="text-4xl font-bold text-navy">{totalBattleground}</p>
                 <p className="text-muted-foreground">Battleground</p>
               </div>
-              <div className="bg-card p-6 rounded-lg border border-gold">
-                <p className="text-4xl font-bold text-gold">{totalSafe + totalBattleground}</p>
+              <div className="bg-card p-6 rounded-lg border border-navy">
+                <p className="text-4xl font-bold text-navy">{totalSafe + totalBattleground}</p>
                 <p className="text-muted-foreground">Total Potential</p>
               </div>
             </div>
             
-            <div className="mt-8 p-4 bg-gold/10 rounded-lg inline-block">
+            <div className="mt-8 p-4 bg-navy/10 rounded-lg inline-block">
               <p className="text-lg font-medium text-foreground">
-                Target: <span className="text-gold font-bold">270 Electoral Votes</span> to Win
+                Target: <span className="text-navy font-bold">270 Electoral Votes</span> to Win
               </p>
             </div>
           </motion.div>
@@ -133,7 +133,7 @@ export default function StrategyPage() {
             className="mb-12"
           >
             <div className="flex items-center gap-3 mb-4">
-              <CheckCircle className="h-8 w-8 text-gold" />
+              <CheckCircle className="h-8 w-8 text-navy" />
               <h2 className="text-3xl font-bold text-foreground">Safe States ({totalSafe} votes)</h2>
             </div>
             <p className="text-muted-foreground">States where we have strong, reliable support.</p>
@@ -149,8 +149,8 @@ export default function StrategyPage() {
                 transition={{ delay: index * 0.03 }}
                 className="bg-card p-4 rounded-lg border border-border flex items-center gap-4"
               >
-                <div className="w-12 h-12 rounded-full bg-gold/10 flex items-center justify-center flex-shrink-0">
-                  <span className="text-gold font-bold">{state.votes}</span>
+                <div className="w-12 h-12 rounded-full bg-navy/10 flex items-center justify-center flex-shrink-0">
+                  <span className="text-navy font-bold">{state.votes}</span>
                 </div>
                 <div>
                   <h3 className="font-bold text-foreground">{state.name}</h3>
@@ -172,7 +172,7 @@ export default function StrategyPage() {
             className="mb-12"
           >
             <div className="flex items-center gap-3 mb-4">
-              <Target className="h-8 w-8 text-gold" />
+              <Target className="h-8 w-8 text-navy" />
               <h2 className="text-3xl font-bold text-foreground">Battleground States ({totalBattleground} votes)</h2>
             </div>
             <p className="text-muted-foreground">Key competitive states that will decide the election.</p>
@@ -186,15 +186,15 @@ export default function StrategyPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.05 }}
-                className="bg-card p-6 rounded-lg border-2 border-gold/30 hover:border-gold transition-colors"
+                className="bg-card p-6 rounded-lg border-2 border-navy/30 hover:border-navy transition-colors"
               >
                 <div className="flex items-start gap-4">
-                  <div className="w-16 h-16 rounded-full bg-gold flex items-center justify-center flex-shrink-0">
+                  <div className="w-16 h-16 rounded-full bg-navy flex items-center justify-center flex-shrink-0">
                     <span className="text-background font-bold text-xl">{state.votes}</span>
                   </div>
                   <div>
                     <div className="flex items-center gap-2 mb-2">
-                      <MapPin className="h-4 w-4 text-gold" />
+                      <MapPin className="h-4 w-4 text-navy" />
                       <h3 className="text-xl font-bold text-foreground">{state.name}</h3>
                     </div>
                     <p className="text-muted-foreground">{state.strategy}</p>

@@ -43,13 +43,13 @@ export default function HomePage() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}
             >
-              <div className="inline-flex items-center gap-2 bg-gold/10 border border-gold/30 rounded-full px-4 py-2 mb-6">
-                <Star className="h-4 w-4 text-gold" />
-                <span className="text-sm font-medium text-gold">Republican Party</span>
+              <div className="inline-flex items-center gap-2 bg-navy/10 border border-navy/30 rounded-full px-4 py-2 mb-6">
+                <Star className="h-4 w-4 text-navy" />
+                <span className="text-sm font-medium text-navy">Republican Party</span>
               </div>
               
               <h1 className="text-5xl sm:text-6xl lg:text-7xl font-serif font-bold text-foreground leading-tight mb-6">
-                Vote <span className="text-gold">Wong</span>,<br />
+                Vote <span className="text-navy">Wong</span>,<br />
                 Not Wrong.
               </h1>
               
@@ -59,13 +59,13 @@ export default function HomePage() {
               
               <div className="flex flex-wrap gap-4">
                 <Link href="/platform">
-                  <Button size="lg" className="bg-gold hover:bg-gold-dark text-background font-bold px-8">
+                  <Button size="lg" className="bg-navy hover:bg-navy-dark text-background font-bold px-8">
                     Our Platform
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </Button>
                 </Link>
                 <Link href="/president">
-                  <Button size="lg" variant="outline" className="border-gold text-gold hover:bg-gold/10">
+                  <Button size="lg" variant="outline" className="border-navy text-navy hover:bg-navy/10">
                     Meet Dylan Wong
                   </Button>
                 </Link>
@@ -88,7 +88,7 @@ export default function HomePage() {
               className="relative flex flex-col"
             >
               {/* Image container */}
-              <div className="relative aspect-[4/5] rounded-t-lg overflow-hidden border-4 border-b-0 border-gold shadow-2xl">
+              <div className="relative aspect-[4/5] rounded-t-lg overflow-hidden border-4 border-b-0 border-navy shadow-2xl">
                 <Image
                   src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image.png-YSg22v1WpG2e4RukvFp11EHXwqlQzV.jpeg"
                   alt="Dylan Wong - 47th President of the United States"
@@ -99,7 +99,7 @@ export default function HomePage() {
               </div>
               
               {/* Name and title box below image */}
-              <div className="bg-card border-4 border-t-0 border-gold rounded-b-lg p-6 flex items-center gap-4">
+              <div className="bg-card border-4 border-t-0 border-navy rounded-b-lg p-6 flex items-center gap-4">
                 {/* Animated signature GIF on the left */}
                 <img
                   src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Untitled%20design%20%281%29-EnQc2WqHgDhm2HKAhVNFAVPajCirMS.gif"
@@ -109,13 +109,13 @@ export default function HomePage() {
                 {/* Name and title on the right */}
                 <div>
                   <h2 className="text-2xl font-serif font-bold text-foreground">Dylan Wong</h2>
-                  <p className="text-gold font-medium">47th President of the United States</p>
+                  <p className="text-navy font-medium">47th President of the United States</p>
                 </div>
               </div>
               
               {/* Decorative elements */}
-              <div className="absolute -top-4 -right-4 w-24 h-24 bg-gold/20 rounded-full blur-2xl" />
-              <div className="absolute -bottom-4 -left-4 w-32 h-32 bg-gold/10 rounded-full blur-3xl" />
+              <div className="absolute -top-4 -right-4 w-24 h-24 bg-navy/20 rounded-full blur-2xl" />
+              <div className="absolute -bottom-4 -left-4 w-32 h-32 bg-navy/10 rounded-full blur-3xl" />
             </motion.div>
           </div>
         </div>
@@ -131,7 +131,7 @@ export default function HomePage() {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-foreground mb-4">Key Priorities</h2>
-            <div className="w-24 h-1 bg-gold mx-auto" />
+            <div className="w-24 h-1 bg-navy mx-auto" />
           </motion.div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -163,10 +163,10 @@ export default function HomePage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                className="bg-card p-6 rounded-lg border border-border hover:border-gold/50 transition-colors group"
+                className="bg-card p-6 rounded-lg border border-border hover:border-navy/50 transition-colors group"
               >
-                <div className="w-12 h-12 rounded-full bg-gold/10 flex items-center justify-center mb-4 group-hover:bg-gold/20 transition-colors">
-                  <item.icon className="h-6 w-6 text-gold" />
+                <div className="w-12 h-12 rounded-full bg-navy/10 flex items-center justify-center mb-4 group-hover:bg-navy/20 transition-colors">
+                  <item.icon className="h-6 w-6 text-navy" />
                 </div>
                 <h3 className="text-xl font-bold text-foreground mb-2">{item.title}</h3>
                 <p className="text-muted-foreground">{item.description}</p>
@@ -186,7 +186,7 @@ export default function HomePage() {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-foreground mb-4">Our Leadership</h2>
-            <div className="w-24 h-1 bg-gold mx-auto" />
+            <div className="w-24 h-1 bg-navy mx-auto" />
           </motion.div>
           
           <div className="grid md:grid-cols-2 gap-12">
@@ -198,7 +198,7 @@ export default function HomePage() {
               className="group"
             >
               <Link href="/president" className="block">
-                <div className="relative aspect-[3/4] rounded-lg overflow-hidden border-2 border-border group-hover:border-gold transition-colors">
+                <div className="relative aspect-[3/4] rounded-lg overflow-hidden border-2 border-border group-hover:border-navy transition-colors">
                   <Image
                     src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image.png-YSg22v1WpG2e4RukvFp11EHXwqlQzV.jpeg"
                     alt="Dylan Wong"
@@ -207,7 +207,7 @@ export default function HomePage() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
                   <div className="absolute bottom-0 left-0 right-0 p-6">
-                    <p className="text-gold text-sm font-medium mb-1">47th President</p>
+                    <p className="text-navy text-sm font-medium mb-1">47th President</p>
                     <h3 className="text-2xl font-bold text-foreground">Dylan Wong</h3>
                   </div>
                 </div>
@@ -222,7 +222,7 @@ export default function HomePage() {
               className="group"
             >
               <Link href="/vice-president" className="block">
-                <div className="relative aspect-[3/4] rounded-lg overflow-hidden border-2 border-border group-hover:border-gold transition-colors">
+                <div className="relative aspect-[3/4] rounded-lg overflow-hidden border-2 border-border group-hover:border-navy transition-colors">
                   <Image
                     src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image.png-lHZwgHNoUD51le4bmbXxXz7Oj8XrT4.jpeg"
                     alt="Ethan Landrigan"
@@ -231,7 +231,7 @@ export default function HomePage() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
                   <div className="absolute bottom-0 left-0 right-0 p-6">
-                    <p className="text-gold text-sm font-medium mb-1">Vice President</p>
+                    <p className="text-navy text-sm font-medium mb-1">Vice President</p>
                     <h3 className="text-2xl font-bold text-foreground">Ethan Landrigan</h3>
                   </div>
                 </div>
@@ -244,8 +244,8 @@ export default function HomePage() {
       {/* CTA Section */}
       <section className="py-20 bg-primary text-primary-foreground relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-0 left-0 w-96 h-96 bg-gold rounded-full blur-3xl" />
-          <div className="absolute bottom-0 right-0 w-96 h-96 bg-gold rounded-full blur-3xl" />
+          <div className="absolute top-0 left-0 w-96 h-96 bg-navy rounded-full blur-3xl" />
+          <div className="absolute bottom-0 right-0 w-96 h-96 bg-navy rounded-full blur-3xl" />
         </div>
         
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -262,13 +262,13 @@ export default function HomePage() {
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link href="/contact">
-                <Button size="lg" className="bg-gold hover:bg-gold-dark text-background font-bold px-8">
+                <Button size="lg" className="bg-navy hover:bg-navy-dark text-background font-bold px-8">
                   Get Involved
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
               </Link>
               <Link href="/strategy">
-                <Button size="lg" variant="outline" className="border-gold text-gold hover:bg-gold/10">
+                <Button size="lg" variant="outline" className="border-navy text-navy hover:bg-navy/10">
                   View Strategy
                 </Button>
               </Link>
