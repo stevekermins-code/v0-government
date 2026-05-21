@@ -22,9 +22,9 @@ export default function PresidentPage() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}
             >
-              <div className="inline-flex items-center gap-2 bg-gold/10 border border-gold/30 rounded-full px-4 py-2 mb-6">
-                <Star className="h-4 w-4 text-gold" />
-                <span className="text-sm font-medium text-gold">47th President of the United States</span>
+              <div className="inline-flex items-center gap-2 bg-navy/10 border border-navy/30 rounded-full px-4 py-2 mb-6">
+                <Star className="h-4 w-4 text-navy" />
+                <span className="text-sm font-medium text-navy">47th President of the United States</span>
               </div>
               
               <h1 className="text-5xl sm:text-6xl font-bold text-foreground leading-tight mb-6">
@@ -37,7 +37,7 @@ export default function PresidentPage() {
               
               <div className="flex flex-wrap gap-4">
                 <Link href="/platform">
-                  <Button size="lg" className="bg-gold hover:bg-gold-dark text-background font-bold px-8">
+                  <Button size="lg" className="bg-navy hover:bg-navy-dark text-background font-bold px-8">
                     View Platform
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </Button>
@@ -51,7 +51,7 @@ export default function PresidentPage() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="relative"
             >
-              <div className="relative aspect-[4/5] rounded-lg overflow-hidden border-4 border-gold shadow-2xl">
+              <div className="relative aspect-[4/5] rounded-lg overflow-hidden border-4 border-navy shadow-2xl">
                 <Image
                   src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image.png-YSg22v1WpG2e4RukvFp11EHXwqlQzV.jpeg"
                   alt="Dylan Wong - 47th President"
@@ -60,8 +60,8 @@ export default function PresidentPage() {
                   priority
                 />
               </div>
-              <div className="absolute -top-4 -right-4 w-24 h-24 bg-gold/20 rounded-full blur-2xl" />
-              <div className="absolute -bottom-4 -left-4 w-32 h-32 bg-gold/10 rounded-full blur-3xl" />
+              <div className="absolute -top-4 -right-4 w-24 h-24 bg-navy/20 rounded-full blur-2xl" />
+              <div className="absolute -bottom-4 -left-4 w-32 h-32 bg-navy/10 rounded-full blur-3xl" />
             </motion.div>
           </div>
         </div>
@@ -75,11 +75,11 @@ export default function PresidentPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <Quote className="h-12 w-12 text-gold mx-auto mb-6" />
+            <Quote className="h-12 w-12 text-navy mx-auto mb-6" />
             <blockquote className="text-2xl sm:text-3xl font-medium text-foreground italic mb-6">
               {'"'}Vote Wong, Not Wrong. Together, we will build an America that works for everyone — through fiscal discipline, efficient government, and unwavering commitment to our founding principles.{'"'}
             </blockquote>
-            <p className="text-gold font-bold">— Dylan Wong</p>
+            <p className="text-navy font-bold">— Dylan Wong</p>
           </motion.div>
         </div>
       </section>
@@ -94,7 +94,7 @@ export default function PresidentPage() {
             className="mb-12"
           >
             <h2 className="text-4xl font-bold text-foreground mb-4">About the President</h2>
-            <div className="w-24 h-1 bg-gold" />
+            <div className="w-24 h-1 bg-navy" />
           </motion.div>
           
           <div className="grid lg:grid-cols-3 gap-8">
@@ -104,7 +104,7 @@ export default function PresidentPage() {
               viewport={{ once: true }}
               className="bg-card p-6 rounded-lg border border-border"
             >
-              <h3 className="text-xl font-bold text-gold mb-4">Background</h3>
+              <h3 className="text-xl font-bold text-navy mb-4">Background</h3>
               <p className="text-muted-foreground">
                 Dylan Wong emerged as a fresh voice in American politics, championing conservative values while bringing innovative solutions to longstanding problems. His commitment to fiscal responsibility and efficient governance has resonated with voters across the nation.
               </p>
@@ -117,7 +117,7 @@ export default function PresidentPage() {
               transition={{ delay: 0.1 }}
               className="bg-card p-6 rounded-lg border border-border"
             >
-              <h3 className="text-xl font-bold text-gold mb-4">Vision</h3>
+              <h3 className="text-xl font-bold text-navy mb-4">Vision</h3>
               <p className="text-muted-foreground">
                 President Wong envisions an America where government works efficiently for its citizens, where hard work is rewarded with fair taxation, and where the national debt no longer burdens future generations. His pragmatic approach prioritizes results over rhetoric.
               </p>
@@ -130,7 +130,7 @@ export default function PresidentPage() {
               transition={{ delay: 0.2 }}
               className="bg-card p-6 rounded-lg border border-border"
             >
-              <h3 className="text-xl font-bold text-gold mb-4">Leadership Style</h3>
+              <h3 className="text-xl font-bold text-navy mb-4">Leadership Style</h3>
               <p className="text-muted-foreground">
                 Known for his direct communication and bold decision-making, President Wong leads by example. He believes in accountability at every level of government and has pledged to hold Congress responsible for balanced budgets through his groundbreaking proposed amendment.
               </p>
@@ -149,7 +149,7 @@ export default function PresidentPage() {
             className="text-center mb-12"
           >
             <h2 className="text-4xl font-bold mb-4">Campaign Promises</h2>
-            <div className="w-24 h-1 bg-gold mx-auto" />
+            <div className="w-24 h-1 bg-navy mx-auto" />
           </motion.div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -169,7 +169,7 @@ export default function PresidentPage() {
                 transition={{ delay: index * 0.1 }}
                 className="flex items-center gap-4 bg-primary-foreground/5 p-4 rounded-lg border border-primary-foreground/10"
               >
-                <div className="w-8 h-8 rounded-full bg-gold flex items-center justify-center flex-shrink-0">
+                <div className="w-8 h-8 rounded-full bg-navy flex items-center justify-center flex-shrink-0">
                   <Star className="h-4 w-4 text-background" />
                 </div>
                 <p className="font-medium">{promise}</p>

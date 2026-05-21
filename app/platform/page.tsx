@@ -105,7 +105,7 @@ export default function PlatformPage() {
             <h1 className="text-5xl sm:text-6xl font-bold text-foreground leading-tight mb-6">
               Our Platform
             </h1>
-            <div className="w-24 h-1 bg-gold mx-auto mb-6" />
+            <div className="w-24 h-1 bg-navy mx-auto mb-6" />
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               The Wong Administration&apos;s positions on the issues that matter most to America. Clear, principled, and focused on results.
             </p>
@@ -140,22 +140,22 @@ export default function PlatformPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.05 }}
-                className="bg-card p-6 rounded-lg border border-border hover:border-gold/50 transition-colors"
+                className="bg-card p-6 rounded-lg border border-border hover:border-navy/50 transition-colors"
               >
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-full bg-gold/10 flex items-center justify-center flex-shrink-0">
-                    <item.icon className="h-6 w-6 text-gold" />
+                  <div className="w-12 h-12 rounded-full bg-navy/10 flex items-center justify-center flex-shrink-0">
+                    <item.icon className="h-6 w-6 text-navy" />
                   </div>
                   <div className="flex-1">
                     <div className="flex items-center justify-between mb-2">
                       <h3 className="text-xl font-bold text-foreground">{item.title}</h3>
                       {item.priority === "high" && (
-                        <span className="text-xs font-medium bg-gold/10 text-gold px-2 py-1 rounded">
+                        <span className="text-xs font-medium bg-navy/10 text-navy px-2 py-1 rounded">
                           Priority
                         </span>
                       )}
                     </div>
-                    <p className="text-gold font-medium mb-2">{item.position}</p>
+                    <p className="text-navy font-medium mb-2">{item.position}</p>
                     <p className="text-muted-foreground">{item.description}</p>
                   </div>
                 </div>

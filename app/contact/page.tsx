@@ -34,9 +34,9 @@ export default function ContactPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <div className="inline-flex items-center gap-2 bg-gold/10 border border-gold/30 rounded-full px-4 py-2 mb-6">
-              <Mail className="h-4 w-4 text-gold" />
-              <span className="text-sm font-medium text-gold">Get In Touch</span>
+            <div className="inline-flex items-center gap-2 bg-navy/10 border border-navy/30 rounded-full px-4 py-2 mb-6">
+              <Mail className="h-4 w-4 text-navy" />
+              <span className="text-sm font-medium text-navy">Get In Touch</span>
             </div>
             
             <h1 className="text-5xl sm:text-6xl font-bold text-foreground leading-tight mb-6">
@@ -73,7 +73,7 @@ export default function ContactPage() {
                     value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                     required
-                    className="w-full px-4 py-3 rounded-lg border border-border bg-card text-foreground focus:ring-2 focus:ring-gold focus:border-transparent transition-colors"
+                    className="w-full px-4 py-3 rounded-lg border border-border bg-card text-foreground focus:ring-2 focus:ring-navy focus:border-transparent transition-colors"
                     placeholder="John Smith"
                   />
                 </div>
@@ -88,7 +88,7 @@ export default function ContactPage() {
                     value={formData.email}
                     onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                     required
-                    className="w-full px-4 py-3 rounded-lg border border-border bg-card text-foreground focus:ring-2 focus:ring-gold focus:border-transparent transition-colors"
+                    className="w-full px-4 py-3 rounded-lg border border-border bg-card text-foreground focus:ring-2 focus:ring-navy focus:border-transparent transition-colors"
                     placeholder="john@example.com"
                   />
                 </div>
@@ -102,7 +102,7 @@ export default function ContactPage() {
                     value={formData.subject}
                     onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
                     required
-                    className="w-full px-4 py-3 rounded-lg border border-border bg-card text-foreground focus:ring-2 focus:ring-gold focus:border-transparent transition-colors"
+                    className="w-full px-4 py-3 rounded-lg border border-border bg-card text-foreground focus:ring-2 focus:ring-navy focus:border-transparent transition-colors"
                   >
                     <option value="">Select a topic</option>
                     <option value="volunteer">Volunteer Opportunities</option>
@@ -124,12 +124,12 @@ export default function ContactPage() {
                     onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                     required
                     rows={5}
-                    className="w-full px-4 py-3 rounded-lg border border-border bg-card text-foreground focus:ring-2 focus:ring-gold focus:border-transparent transition-colors resize-none"
+                    className="w-full px-4 py-3 rounded-lg border border-border bg-card text-foreground focus:ring-2 focus:ring-navy focus:border-transparent transition-colors resize-none"
                     placeholder="Your message..."
                   />
                 </div>
                 
-                <Button type="submit" size="lg" className="w-full bg-gold hover:bg-gold-dark text-background font-bold">
+                <Button type="submit" size="lg" className="w-full bg-navy hover:bg-navy-dark text-background font-bold">
                   Send Message
                   <Send className="ml-2 h-5 w-5" />
                 </Button>
@@ -147,8 +147,8 @@ export default function ContactPage() {
               
               <div className="space-y-6 mb-12">
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-full bg-gold/10 flex items-center justify-center flex-shrink-0">
-                    <MapPin className="h-6 w-6 text-gold" />
+                  <div className="w-12 h-12 rounded-full bg-navy/10 flex items-center justify-center flex-shrink-0">
+                    <MapPin className="h-6 w-6 text-navy" />
                   </div>
                   <div>
                     <h3 className="font-bold text-foreground mb-1">Address</h3>
@@ -160,8 +160,8 @@ export default function ContactPage() {
                 </div>
                 
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-full bg-gold/10 flex items-center justify-center flex-shrink-0">
-                    <Phone className="h-6 w-6 text-gold" />
+                  <div className="w-12 h-12 rounded-full bg-navy/10 flex items-center justify-center flex-shrink-0">
+                    <Phone className="h-6 w-6 text-navy" />
                   </div>
                   <div>
                     <h3 className="font-bold text-foreground mb-1">Phone</h3>
@@ -170,8 +170,8 @@ export default function ContactPage() {
                 </div>
                 
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-full bg-gold/10 flex items-center justify-center flex-shrink-0">
-                    <Mail className="h-6 w-6 text-gold" />
+                  <div className="w-12 h-12 rounded-full bg-navy/10 flex items-center justify-center flex-shrink-0">
+                    <Mail className="h-6 w-6 text-navy" />
                   </div>
                   <div>
                     <h3 className="font-bold text-foreground mb-1">Email</h3>
@@ -188,19 +188,19 @@ export default function ContactPage() {
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 rounded-full bg-gold" />
+                    <div className="w-2 h-2 rounded-full bg-navy" />
                     <span>Knock on doors in your neighborhood</span>
                   </li>
                   <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 rounded-full bg-gold" />
+                    <div className="w-2 h-2 rounded-full bg-navy" />
                     <span>Make phone calls to voters</span>
                   </li>
                   <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 rounded-full bg-gold" />
+                    <div className="w-2 h-2 rounded-full bg-navy" />
                     <span>Host a fundraising event</span>
                   </li>
                   <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 rounded-full bg-gold" />
+                    <div className="w-2 h-2 rounded-full bg-navy" />
                     <span>Share our message on social media</span>
                   </li>
                 </ul>

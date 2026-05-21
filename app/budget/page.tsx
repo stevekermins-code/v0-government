@@ -47,9 +47,9 @@ export default function BudgetPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <div className="inline-flex items-center gap-2 bg-gold/10 border border-gold/30 rounded-full px-4 py-2 mb-6">
-              <DollarSign className="h-4 w-4 text-gold" />
-              <span className="text-sm font-medium text-gold">Fiscal Policy</span>
+            <div className="inline-flex items-center gap-2 bg-navy/10 border border-navy/30 rounded-full px-4 py-2 mb-6">
+              <DollarSign className="h-4 w-4 text-navy" />
+              <span className="text-sm font-medium text-navy">Fiscal Policy</span>
             </div>
             
             <h1 className="text-5xl sm:text-6xl font-bold text-foreground leading-tight mb-6">
@@ -124,10 +124,10 @@ export default function BudgetPage() {
               initial={{ opacity: 0, x: 50 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              className="bg-card p-8 rounded-lg border-2 border-gold"
+              className="bg-card p-8 rounded-lg border-2 border-navy"
             >
               <div className="flex items-center gap-3 mb-6">
-                <TrendingDown className="h-6 w-6 text-gold" />
+                <TrendingDown className="h-6 w-6 text-navy" />
                 <h2 className="text-2xl font-bold text-foreground">Wong Administration Proposal</h2>
               </div>
               <p className="text-muted-foreground mb-6">
@@ -164,7 +164,7 @@ export default function BudgetPage() {
                 </ResponsiveContainer>
               </div>
               
-              <div className="mt-6 p-4 bg-gold/10 rounded-lg">
+              <div className="mt-6 p-4 bg-navy/10 rounded-lg">
                 <p className="text-sm text-foreground">
                   <strong>Solution:</strong> 12% dedicated to debt reduction — investing in our children&apos;s future by reducing what they&apos;ll owe.
                 </p>
@@ -184,7 +184,7 @@ export default function BudgetPage() {
             className="text-center mb-12"
           >
             <h2 className="text-3xl font-bold mb-4">Key Budget Changes</h2>
-            <div className="w-24 h-1 bg-gold mx-auto" />
+            <div className="w-24 h-1 bg-navy mx-auto" />
           </motion.div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -218,7 +218,7 @@ export default function BudgetPage() {
                 transition={{ delay: index * 0.1 }}
                 className="bg-primary-foreground/5 p-6 rounded-lg border border-primary-foreground/10"
               >
-                <p className={`text-3xl font-bold mb-2 ${item.change.startsWith('+') ? 'text-gold' : 'text-gold-light'}`}>
+                <p className={`text-3xl font-bold mb-2 ${item.change.startsWith('+') ? 'text-navy' : 'text-navy-light'}`}>
                   {item.change}
                 </p>
                 <h3 className="font-bold mb-2">{item.title}</h3>
