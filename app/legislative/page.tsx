@@ -18,9 +18,9 @@ export default function LegislativePage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <div className="inline-flex items-center gap-2 bg-gold/10 border border-gold/30 rounded-full px-4 py-2 mb-6">
-              <Landmark className="h-4 w-4 text-gold" />
-              <span className="text-sm font-medium text-gold">Legislative Branch</span>
+            <div className="inline-flex items-center gap-2 bg-navy/10 border border-navy/30 rounded-full px-4 py-2 mb-6">
+              <Landmark className="h-4 w-4 text-navy" />
+              <span className="text-sm font-medium text-navy">Legislative Branch</span>
             </div>
             
             <h1 className="text-5xl sm:text-6xl font-bold text-foreground leading-tight mb-6">
@@ -46,7 +46,7 @@ export default function LegislativePage() {
             {/* Introduction */}
             <div className="bg-card p-8 rounded-lg border border-border mb-8">
               <h2 className="text-2xl font-bold text-foreground mb-4 flex items-center gap-2">
-                <Star className="h-6 w-6 text-gold" />
+                <Star className="h-6 w-6 text-navy" />
                 Opening Remarks
               </h2>
               <p className="text-foreground leading-relaxed">
@@ -55,8 +55,8 @@ export default function LegislativePage() {
             </div>
             
             {/* Theme 1 */}
-            <div className="bg-card p-8 rounded-lg border-2 border-gold/30 mb-8">
-              <h2 className="text-2xl font-bold text-gold mb-4">
+            <div className="bg-card p-8 rounded-lg border-2 border-navy/30 mb-8">
+              <h2 className="text-2xl font-bold text-navy mb-4">
                 Theme One: Fiscal Responsibility
               </h2>
               <p className="text-foreground leading-relaxed mb-4">
@@ -71,8 +71,8 @@ export default function LegislativePage() {
             </div>
             
             {/* Theme 2 */}
-            <div className="bg-card p-8 rounded-lg border-2 border-gold/30 mb-8">
-              <h2 className="text-2xl font-bold text-gold mb-4">
+            <div className="bg-card p-8 rounded-lg border-2 border-navy/30 mb-8">
+              <h2 className="text-2xl font-bold text-navy mb-4">
                 Theme Two: Tax Relief for All Americans
               </h2>
               <p className="text-foreground leading-relaxed mb-4">
@@ -87,8 +87,8 @@ export default function LegislativePage() {
             </div>
             
             {/* Theme 3 */}
-            <div className="bg-card p-8 rounded-lg border-2 border-gold/30 mb-8">
-              <h2 className="text-2xl font-bold text-gold mb-4">
+            <div className="bg-card p-8 rounded-lg border-2 border-navy/30 mb-8">
+              <h2 className="text-2xl font-bold text-navy mb-4">
                 Theme Three: Immigration Reform
               </h2>
               <p className="text-foreground leading-relaxed mb-4">
@@ -104,7 +104,7 @@ export default function LegislativePage() {
             
             {/* Conclusion */}
             <div className="bg-primary text-primary-foreground p-8 rounded-lg">
-              <h2 className="text-2xl font-bold text-gold mb-4 flex items-center gap-2">
+              <h2 className="text-2xl font-bold text-navy mb-4 flex items-center gap-2">
                 <Star className="h-6 w-6" />
                 Conclusion
               </h2>
@@ -129,7 +129,7 @@ export default function LegislativePage() {
             className="text-center mb-12"
           >
             <h2 className="text-3xl font-bold text-foreground mb-4">Legislative Priorities Summary</h2>
-            <div className="w-24 h-1 bg-gold mx-auto" />
+            <div className="w-24 h-1 bg-navy mx-auto" />
           </motion.div>
           
           <div className="grid md:grid-cols-3 gap-8">
@@ -158,12 +158,12 @@ export default function LegislativePage() {
                 transition={{ delay: index * 0.1 }}
                 className="bg-card p-6 rounded-lg border border-border"
               >
-                <span className="text-5xl font-bold text-gold/30">{priority.number}</span>
+                <span className="text-5xl font-bold text-navy/30">{priority.number}</span>
                 <h3 className="text-xl font-bold text-foreground mb-4">{priority.title}</h3>
                 <ul className="space-y-2">
                   {priority.points.map((point) => (
                     <li key={point} className="flex items-center gap-2 text-muted-foreground">
-                      <Star className="h-4 w-4 text-gold" />
+                      <Star className="h-4 w-4 text-navy" />
                       {point}
                     </li>
                   ))}

@@ -10,9 +10,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        gold: "var(--gold)",
-        "gold-light": "var(--gold-light)",
-        "gold-dark": "var(--gold-dark)",
+        navy: "var(--navy)",
+        "navy-light": "var(--navy-light)",
+        "navy-dark": "var(--navy-dark)",
       },
     },
   },

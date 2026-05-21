@@ -41,9 +41,9 @@ export default function ConstitutionalPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <div className="inline-flex items-center gap-2 bg-gold/10 border border-gold/30 rounded-full px-4 py-2 mb-6">
-              <Scale className="h-4 w-4 text-gold" />
-              <span className="text-sm font-medium text-gold">Constitutional Underpinnings</span>
+            <div className="inline-flex items-center gap-2 bg-navy/10 border border-navy/30 rounded-full px-4 py-2 mb-6">
+              <Scale className="h-4 w-4 text-navy" />
+              <span className="text-sm font-medium text-navy">Constitutional Underpinnings</span>
             </div>
             
             <h1 className="text-5xl sm:text-6xl font-bold text-foreground leading-tight mb-6">
@@ -66,12 +66,12 @@ export default function ConstitutionalPage() {
             viewport={{ once: true }}
           >
             <div className="flex items-center gap-3 mb-6">
-              <FileText className="h-8 w-8 text-gold" />
+              <FileText className="h-8 w-8 text-navy" />
               <h2 className="text-3xl font-bold">Proposed Constitutional Amendment</h2>
             </div>
             
             <div className="bg-primary-foreground/5 border border-primary-foreground/20 rounded-lg p-8">
-              <h3 className="text-2xl font-bold text-gold mb-4">The Congressional Accountability Amendment</h3>
+              <h3 className="text-2xl font-bold text-navy mb-4">The Congressional Accountability Amendment</h3>
               
               <div className="prose prose-invert max-w-none">
                 <p className="text-lg leading-relaxed mb-6">
@@ -87,8 +87,8 @@ export default function ConstitutionalPage() {
                 </p>
               </div>
               
-              <div className="mt-8 p-4 bg-gold/20 rounded-lg">
-                <h4 className="font-bold text-gold mb-2">Impact on Fundamental Principles</h4>
+              <div className="mt-8 p-4 bg-navy/20 rounded-lg">
+                <h4 className="font-bold text-navy mb-2">Impact on Fundamental Principles</h4>
                 <p className="text-primary-foreground/80">
                   This amendment reinforces the principle of representative accountability. Our elected officials should share in the consequences of fiscal irresponsibility. It does not alter the separation of powers or fundamental rights, but adds a powerful incentive for fiscal discipline.
                 </p>
@@ -108,7 +108,7 @@ export default function ConstitutionalPage() {
             className="mb-12"
           >
             <div className="flex items-center gap-3 mb-4">
-              <Shield className="h-8 w-8 text-gold" />
+              <Shield className="h-8 w-8 text-navy" />
               <h2 className="text-3xl font-bold text-foreground">Most Cherished Liberties</h2>
             </div>
             <p className="text-muted-foreground">
@@ -124,10 +124,10 @@ export default function ConstitutionalPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                className="bg-card p-6 rounded-lg border border-border hover:border-gold/50 transition-colors"
+                className="bg-card p-6 rounded-lg border border-border hover:border-navy/50 transition-colors"
               >
-                <div className="w-10 h-10 rounded-full bg-gold/10 flex items-center justify-center mb-4">
-                  <Star className="h-5 w-5 text-gold" />
+                <div className="w-10 h-10 rounded-full bg-navy/10 flex items-center justify-center mb-4">
+                  <Star className="h-5 w-5 text-navy" />
                 </div>
                 <h3 className="text-xl font-bold text-foreground mb-2">{liberty.title}</h3>
                 <p className="text-muted-foreground">{liberty.description}</p>
