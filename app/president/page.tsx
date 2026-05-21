@@ -24,7 +24,7 @@ export default function PresidentPage() {
             >
               <div className="inline-flex items-center gap-2 bg-gold/10 border border-gold/30 rounded-full px-4 py-2 mb-6">
                 <Star className="h-4 w-4 text-gold" />
-                <span className="text-sm font-medium text-gold">47th President of the United States</span>
+                <span className="text-sm font-medium text-gold">48th President of the United States</span>
               </div>
               
               <h1 className="text-5xl sm:text-6xl font-bold text-foreground leading-tight mb-6">
@@ -54,7 +54,7 @@ export default function PresidentPage() {
               <div className="relative aspect-[4/5] rounded-lg overflow-hidden border-4 border-gold shadow-2xl">
                 <Image
                   src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image.png-YSg22v1WpG2e4RukvFp11EHXwqlQzV.jpeg"
-                  alt="Dylan Wong - 47th President"
+                  alt="Dylan Wong - 48th President"
                   fill
                   className="object-cover"
                   priority
@@ -77,7 +77,7 @@ export default function PresidentPage() {
           >
             <Quote className="h-12 w-12 text-gold mx-auto mb-6" />
             <blockquote className="text-2xl sm:text-3xl font-medium text-foreground italic mb-6">
-              {'"'}Vote Wong, Not Wrong. Together, we will build an America that works for everyone — through fiscal discipline, efficient government, and unwavering commitment to our founding principles.{'"'}
+              {"\"It ain't about how hard you hit. It's about how hard you can get hit and keep moving forward; how much you can take and keep moving forward. That's how winning is done!\""}
             </blockquote>
             <p className="text-gold font-bold">— Dylan Wong</p>
           </motion.div>
@@ -106,7 +106,7 @@ export default function PresidentPage() {
             >
               <h3 className="text-xl font-bold text-gold mb-4">Background</h3>
               <p className="text-muted-foreground">
-                Dylan Wong emerged as a fresh voice in American politics, championing conservative values while bringing innovative solutions to longstanding problems. His commitment to fiscal responsibility and efficient governance has resonated with voters across the nation.
+                Dylan Wong emerged as a leader in Indiana striking waves across the entire United States. Through his conservative values, he brings innovative solutions to longstanding problems. His commitment to the people and their needs resonates with voters throughout the nation.
               </p>
             </motion.div>
             
@@ -119,7 +119,7 @@ export default function PresidentPage() {
             >
               <h3 className="text-xl font-bold text-gold mb-4">Vision</h3>
               <p className="text-muted-foreground">
-                President Wong envisions an America where government works efficiently for its citizens, where hard work is rewarded with fair taxation, and where the national debt no longer burdens future generations. His pragmatic approach prioritizes results over rhetoric.
+                President Wong believes that with time, patience, and discipline, the nation as a whole can become a better place. Through efficiency in government tasks and fair taxation, burdens in the future will slowly crumble, leaving new light to grow the seeds of greatness.
               </p>
             </motion.div>
             
@@ -132,7 +132,7 @@ export default function PresidentPage() {
             >
               <h3 className="text-xl font-bold text-gold mb-4">Leadership Style</h3>
               <p className="text-muted-foreground">
-                Known for his direct communication and bold decision-making, President Wong leads by example. He believes in accountability at every level of government and has pledged to hold Congress responsible for balanced budgets through his groundbreaking proposed amendment.
+                Known for his direct communication and bold decision-making, President Wong leads by example. He believes in accountability at every level of government and has pledged to hold Congress responsible for balanced budgets through his new amendment.
               </p>
             </motion.div>
           </div>

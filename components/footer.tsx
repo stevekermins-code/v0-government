@@ -1,5 +1,8 @@
+"use client";
+
 import Link from "next/link";
 import { Mail, Phone, MapPin } from "lucide-react";
+import { SpinningText } from "@/components/spinning-text";
 
 export default function Footer() {
   return (
@@ -12,8 +15,11 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-12 h-12 rounded-full bg-primary-foreground flex items-center justify-center border-2 border-gold">
-                <span className="text-primary font-bold text-xl">W</span>
+              <div className="relative w-12 h-12 rounded-full bg-primary-foreground flex items-center justify-center border-2 border-gold">
+                <SpinningText radius={28} duration={8}>
+                  Beard for life
+                </SpinningText>
+                <span className="text-primary font-bold text-xl relative z-10">W</span>
               </div>
               <div>
                 <p className="font-bold text-xl tracking-tight">WONG 2028</p>

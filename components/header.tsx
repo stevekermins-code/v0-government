@@ -18,6 +18,7 @@ import {
 import MegaMenu, { type MegaMenuItem } from "@/components/ui/mega-menu";
 import { ThemeToggle } from "@/components/ui/curtain-theme-toggle";
 import { useState } from "react";
+import { SpinningText } from "@/components/spinning-text";
 
 const NAV_ITEMS: MegaMenuItem[] = [
   {
@@ -29,7 +30,7 @@ const NAV_ITEMS: MegaMenuItem[] = [
         items: [
           {
             label: "The President",
-            description: "Dylan Wong - 47th President",
+            description: "Dylan Wong - 48th President",
             icon: Star,
             href: "/president",
           },
@@ -152,8 +153,11 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center border-2 border-gold">
-              <span className="text-primary-foreground font-bold text-lg">W</span>
+            <div className="relative w-10 h-10 rounded-full bg-primary flex items-center justify-center border-2 border-gold">
+              <SpinningText radius={24} duration={8}>
+                Beard for life
+              </SpinningText>
+              <span className="text-primary-foreground font-bold text-lg relative z-10">W</span>
             </div>
             <div className="hidden sm:block">
               <p className="font-bold text-foreground tracking-tight">WONG 2028</p>

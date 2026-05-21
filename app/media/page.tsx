@@ -13,15 +13,15 @@ const mediaOutlets = [
     icon: Radio,
     description: "Long-form conversation reaching millions of engaged listeners across demographics. Perfect for discussing nuanced policy positions and personal story.",
     reach: "11M+ listeners per episode",
-    image: "https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=400&h=300&fit=crop",
+    image: "https://media.cnn.com/api/v1/images/stellar/prod/220128092452-joe-rogan-jordan-peterson-podcast-spotify.jpg?c=16x9&q=w_1280,c_fill",
   },
   {
     name: "Fox News",
     type: "Television",
     icon: Tv,
-    description: "America&apos;s most-watched cable news network, reaching conservative and independent voters who align with our fiscal responsibility message.",
+    description: "America most-watched cable news network, reaching conservative and independent voters who align with our fiscal responsibility message.",
     reach: "3M+ prime time viewers",
-    image: "https://images.unsplash.com/photo-1495020689067-958852a7765e?w=400&h=300&fit=crop",
+    image: "https://static.foxnews.com/static/orion/styles/img/fox-news/og/og-fox-news.png",
   },
   {
     name: "Daily Wire",
@@ -36,7 +36,7 @@ const mediaOutlets = [
 const interestGroups = [
   {
     name: "National Rifle Association (NRA)",
-    reason: "Our strong Second Amendment stance and opposition to gun control aligns perfectly with NRA members&apos; priorities.",
+    reason: "Our strong Second Amendment stance and opposition to gun control aligns perfectly with NRA members priorities.",
     members: "5M+ members",
   },
   {
@@ -51,7 +51,7 @@ const interestGroups = [
   },
   {
     name: "Heritage Foundation",
-    reason: "Our conservative policy positions on fiscal responsibility, limited government, and constitutional originalism align with Heritage&apos;s mission.",
+    reason: "Our conservative policy positions on fiscal responsibility, limited government, and constitutional originalism align with Heritage mission.",
     members: "500,000+ supporters",
   },
 ];
@@ -99,7 +99,7 @@ export default function MediaPage() {
               <h2 className="text-3xl font-bold text-foreground">Media Exposure Strategy</h2>
             </div>
             <p className="text-muted-foreground max-w-3xl">
-              We&apos;ve identified key media outlets across different formats to maximize our reach and deliver our message to targeted voter groups.
+              We have identified key media outlets across different formats to maximize our reach and deliver our message to targeted voter groups.
             </p>
           </motion.div>
           

@@ -77,7 +77,7 @@ export default function VicePresidentPage() {
           >
             <Quote className="h-12 w-12 text-gold mx-auto mb-6" />
             <blockquote className="text-2xl sm:text-3xl font-medium text-foreground italic mb-6">
-              {'"'}Standing alongside President Wong, we will restore fiscal sanity to Washington and ensure that government truly serves the people.{'"'}
+              {"\"President Wong has strong conservative poker values\""}
             </blockquote>
             <p className="text-gold font-bold">— Ethan Landrigan</p>
           </motion.div>
@@ -107,7 +107,7 @@ export default function VicePresidentPage() {
               <div className="bg-card p-6 rounded-lg border border-border">
                 <h3 className="text-xl font-bold text-gold mb-4">Role in Administration</h3>
                 <p className="text-muted-foreground">
-                  Vice President Landrigan serves as President Wong&apos;s closest advisor and partner in governance. He presides over the Senate, casts tie-breaking votes, and leads key initiatives in the administration&apos;s agenda for fiscal reform.
+                  Vice President Landrigan serves as President Wong closest advisor and partner in governance. He presides over the Senate, casts tie-breaking votes, and leads key initiatives in the administration agenda for fiscal reform.
                 </p>
               </div>
               

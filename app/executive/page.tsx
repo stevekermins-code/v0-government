@@ -49,9 +49,9 @@ export default function ExecutivePage() {
             
             <div className="bg-gold text-background p-8 rounded-lg">
               <blockquote className="text-xl sm:text-2xl font-medium leading-relaxed">
-                {'"'}To all federal employees: Our administration will streamline and reduce the size of the federal bureaucracy while enhancing its efficiency. We will eliminate redundant agencies, cut wasteful programs, and empower those who remain to serve the American people with excellence. Our goal is not to destroy government, but to make it work — smaller, smarter, and more responsive to citizens&apos; needs. Performance will be rewarded; waste will be eliminated. Together, we will restore the public&apos;s trust in their government.{'"'}
+                {"\"Our administration will reduce the size of the federal bureaucracy while maintaining its efficiency. We will eliminate redundant agencies, cut wasteful programs, and serve the American people with excellence.\""}
               </blockquote>
-              <p className="mt-6 font-bold">— President Dylan Wong</p>
+              <p className="mt-6 font-bold">President Dylan Wong</p>
             </div>
           </motion.div>
         </div>
@@ -78,7 +78,7 @@ export default function ExecutivePage() {
               },
               {
                 title: "Streamline Operations",
-                description: "Consolidate redundant agencies and eliminate bureaucratic red tape.",
+                description: "Consolidate redundant agencies and eliminate unnecessary complexity.",
               },
               {
                 title: "Performance Metrics",

@@ -74,7 +74,7 @@ export default function HomePage() {
               {/* Campaign slogan */}
               <div className="mt-12 p-6 bg-card border border-border rounded-lg">
                 <p className="text-lg font-medium text-foreground italic">
-                  {'"'}What{"'"}s Wong with you?{'"'}
+                  {"\"What's Wong with you?\""}
                 </p>
                 <p className="text-sm text-muted-foreground mt-2">— Campaign Slogan 2028</p>
               </div>
@@ -91,7 +91,7 @@ export default function HomePage() {
               <div className="relative aspect-[4/5] rounded-t-lg overflow-hidden border-4 border-b-0 border-gold shadow-2xl">
                 <Image
                   src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image.png-YSg22v1WpG2e4RukvFp11EHXwqlQzV.jpeg"
-                  alt="Dylan Wong - 47th President of the United States"
+                  alt="Dylan Wong - 48th President of the United States"
                   fill
                   className="object-cover"
                   priority
@@ -109,7 +109,7 @@ export default function HomePage() {
                 {/* Name and title on the right */}
                 <div>
                   <h2 className="text-2xl font-serif font-bold text-foreground">Dylan Wong</h2>
-                  <p className="text-gold font-medium">47th President of the United States</p>
+                  <p className="text-gold font-medium">48th President of the United States</p>
                 </div>
               </div>
               
@@ -207,7 +207,7 @@ export default function HomePage() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
                   <div className="absolute bottom-0 left-0 right-0 p-6">
-                    <p className="text-gold text-sm font-medium mb-1">47th President</p>
+                    <p className="text-gold text-sm font-medium mb-1">48th President</p>
                     <h3 className="text-2xl font-bold text-foreground">Dylan Wong</h3>
                   </div>
                 </div>

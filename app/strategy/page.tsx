@@ -81,7 +81,7 @@ export default function StrategyPage() {
               </p>
             </div>
             <p className="mt-6 text-primary-foreground/70 text-lg italic">
-              {'"'}What&apos;s Wong with you?{'"'}
+              {"\"What's Wong with you?\""}
             </p>
           </motion.div>
         </div>

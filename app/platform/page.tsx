@@ -42,14 +42,14 @@ const platformItems = [
     icon: Shield,
     title: "Gun Rights",
     position: "Second Amendment",
-    description: "The Second Amendment is a fundamental right. We will protect law-abiding citizens&apos; rights to keep and bear arms while supporting mental health initiatives and school safety measures.",
+    description: "The Second Amendment is a fundamental right. We will protect law-abiding citizens rights to keep and bear arms while supporting mental health initiatives and school safety measures.",
     priority: "high",
   },
   {
     icon: Rocket,
     title: "Space Race",
-    position: "Legitimate Moon Landing",
-    description: "America will lead humanity&apos;s expansion into space. We support NASA&apos;s continued exploration and private sector innovation. The moon landing was real, and we will return to establish a permanent presence.",
+    position: "The True Moon Landing",
+    description: "The moon landing was fake. Our government lied to you. Under new leadership and guidance, we will uncover the truth. The Artemis Missions will deliver the true moon landing and America will lead in interplanetary exploration.",
     priority: "medium",
   },
   {
@@ -63,14 +63,14 @@ const platformItems = [
     icon: Building2,
     title: "Military & Defense",
     position: "Peace Through Strength",
-    description: "A strong military is the foundation of peace. We will rebuild and modernize our armed forces, support our veterans, and maintain America&apos;s position as the world&apos;s preeminent military power.",
+    description: "A strong military is the foundation of peace. We will rebuild and modernize our armed forces, support our veterans, and maintain America position as the world preeminent military power.",
     priority: "high",
   },
   {
     icon: Landmark,
     title: "National Debt",
     position: "Reduction",
-    description: "The national debt is a threat to our children&apos;s future. We will implement a comprehensive plan to reduce the debt through spending cuts and economic growth, not tax increases.",
+    description: "The national debt is a threat to our children future. We will implement a comprehensive plan to reduce the debt through spending cuts and economic growth, not tax increases.",
     priority: "high",
   },
   {
@@ -107,7 +107,7 @@ export default function PlatformPage() {
             </h1>
             <div className="w-24 h-1 bg-gold mx-auto mb-6" />
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              The Wong Administration&apos;s positions on the issues that matter most to America. Clear, principled, and focused on results.
+              The Wong Administration positions on the issues that matter most to America. Clear, principled, and focused on results.
             </p>
           </motion.div>
         </div>

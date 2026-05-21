@@ -52,7 +52,7 @@ export default function JudicialPage() {
                 <p className="text-muted-foreground mb-4">Associate Justice of the Supreme Court</p>
                 
                 <p className="text-foreground leading-relaxed">
-                  Justice Clarence Thomas represents the ideal model for our judicial appointments. Appointed in 1991, he has served with unwavering commitment to constitutional originalism and textualism. His opinions consistently reflect a dedication to interpreting the Constitution as written, not as modern judges might wish it to be.
+                  Justice Clarence Thomas is the model for our judicial picks. He was appointed in 1991 and has served with a strong commitment to reading the Constitution as it was written. His rulings show a dedication to understanding the Constitution based on what it meant when it was created, not what modern judges might want it to mean.
                 </p>
               </div>
               
@@ -60,15 +60,15 @@ export default function JudicialPage() {
                 <div className="flex items-start gap-3">
                   <Star className="h-5 w-5 text-gold mt-1 flex-shrink-0" />
                   <div>
-                    <p className="font-bold text-foreground">Originalist Philosophy</p>
-                    <p className="text-muted-foreground">Interprets the Constitution based on its original meaning at the time of ratification.</p>
+                    <p className="font-bold text-foreground">Original Meaning</p>
+                    <p className="text-muted-foreground">Reads the Constitution based on what it meant when it was first written.</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <Star className="h-5 w-5 text-gold mt-1 flex-shrink-0" />
                   <div>
-                    <p className="font-bold text-foreground">Textualist Approach</p>
-                    <p className="text-muted-foreground">Relies on the plain text of laws and the Constitution rather than legislative intent or policy preferences.</p>
+                    <p className="font-bold text-foreground">Plain Text Reading</p>
+                    <p className="text-muted-foreground">Relies on the actual words of laws and the Constitution rather than what lawmakers intended or policy goals.</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
@@ -89,8 +89,8 @@ export default function JudicialPage() {
             >
               <div className="relative aspect-[4/5] rounded-lg overflow-hidden border-4 border-gold shadow-2xl">
                 <Image
-                  src="https://images.unsplash.com/photo-1589391886645-d51941baf7fb?w=800&h=1000&fit=crop"
-                  alt="Supreme Court Justice"
+                  src="https://www.reuters.com/resizer/v2/ICLBC23PDRONLIXNUXU7TH5EFA.jpg?auth=9cbd6bf8b396728da204b756e009eb0128dcf4f49864a92b1b71d730bdabc0fe&width=1920&quality=80"
+                  alt="Justice Clarence Thomas"
                   fill
                   className="object-cover"
                 />
@@ -116,10 +116,10 @@ export default function JudicialPage() {
             
             <div className="space-y-6 text-primary-foreground/80 text-lg leading-relaxed">
               <p>
-                The Wong Administration embraces <strong className="text-gold">constitutional originalism</strong> — the belief that the Constitution should be interpreted according to its original public meaning at the time of ratification. This is not a rigid or backwards-looking approach; rather, it is a commitment to the rule of law and democratic self-governance.
+                The Wong Administration believes in <strong className="text-gold">reading the Constitution as it was written</strong>. This means understanding the Constitution based on what it meant when it was first created. This is not a rigid or old-fashioned approach. Instead, it is a commitment to following the law and letting the people govern themselves through elections.
               </p>
               <p>
-                When judges interpret the Constitution based on their own policy preferences, they usurp the role of elected legislators. Our judicial appointments will respect the separation of powers and defer to the democratic process on policy questions.
+                When judges read the Constitution based on their own personal views, they take power away from elected lawmakers. Our judicial picks will respect the separation of powers and let the democratic process handle policy questions.
               </p>
             </div>
           </motion.div>

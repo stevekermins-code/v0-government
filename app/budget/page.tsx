@@ -14,20 +14,20 @@ import {
 } from "recharts";
 
 const currentBudget = [
-  { name: "Social Security", value: 23, color: "#d4af37" },
-  { name: "Medicare", value: 15, color: "#f0d875" },
-  { name: "Medicaid", value: 10, color: "#9a7b1a" },
-  { name: "Defense", value: 13, color: "#1a1a1a" },
+  { name: "Social Security", value: 23, color: "#1e3a5f" },
+  { name: "Medicare", value: 15, color: "#2d5a8a" },
+  { name: "Medicaid", value: 10, color: "#0f1f33" },
+  { name: "Defense", value: 13, color: "#0a0a0a" },
   { name: "Interest on Debt", value: 10, color: "#404040" },
   { name: "Other Mandatory", value: 14, color: "#666666" },
   { name: "Discretionary", value: 15, color: "#999999" },
 ];
 
 const proposedBudget = [
-  { name: "Social Security (Reformed)", value: 18, color: "#d4af37" },
-  { name: "Medicare", value: 14, color: "#f0d875" },
-  { name: "Medicaid", value: 8, color: "#9a7b1a" },
-  { name: "Defense", value: 15, color: "#1a1a1a" },
+  { name: "Social Security (Reformed)", value: 18, color: "#1e3a5f" },
+  { name: "Medicare", value: 14, color: "#2d5a8a" },
+  { name: "Medicaid", value: 8, color: "#0f1f33" },
+  { name: "Defense", value: 15, color: "#0a0a0a" },
   { name: "Interest on Debt", value: 8, color: "#404040" },
   { name: "Infrastructure", value: 10, color: "#666666" },
   { name: "Debt Reduction", value: 12, color: "#228B22" },
@@ -57,7 +57,7 @@ export default function BudgetPage() {
             </h1>
             
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              A comparison of current federal spending and the Wong Administration&apos;s proposed budget priorities.
+              A comparison of current federal spending and the Wong Administration proposed budget priorities.
             </p>
           </motion.div>
         </div>
@@ -114,7 +114,7 @@ export default function BudgetPage() {
               
               <div className="mt-6 p-4 bg-destructive/10 rounded-lg">
                 <p className="text-sm text-foreground">
-                  <strong>Problem:</strong> 10% of the budget goes to interest on debt alone — money that could be invested in America&apos;s future.
+                  <strong>Problem:</strong> 10% of the budget goes to interest on debt alone: money that could be invested in America future.
                 </p>
               </div>
             </motion.div>
@@ -166,7 +166,7 @@ export default function BudgetPage() {
               
               <div className="mt-6 p-4 bg-gold/10 rounded-lg">
                 <p className="text-sm text-foreground">
-                  <strong>Solution:</strong> 12% dedicated to debt reduction — investing in our children&apos;s future by reducing what they&apos;ll owe.
+                  <strong>Solution:</strong> 12% dedicated to debt reduction, investing in our children future by reducing what they will owe.
                 </p>
               </div>
             </motion.div>
@@ -239,7 +239,7 @@ export default function BudgetPage() {
           >
             <h2 className="text-3xl font-bold text-foreground mb-6">Our Budget Philosophy</h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              The federal budget is not just a financial document — it is a moral statement about our priorities as a nation. The Wong Administration believes that every dollar spent should serve the American people efficiently and effectively. We reject the false choice between fiscal responsibility and compassion. By eliminating waste and reforming outdated programs, we can better serve those in need while securing a prosperous future for all Americans.
+              The federal budget is not just a financial document. It is a moral statement about our priorities as a nation. The Wong Administration believes that every dollar spent should serve the American people efficiently and effectively. We reject the false choice between fiscal responsibility and compassion. By eliminating waste and reforming outdated programs, we can better serve those in need while securing a prosperous future for all Americans.
             </p>
           </motion.div>
         </div>
